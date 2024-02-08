@@ -45,7 +45,7 @@ def simulate_transaction(producer):
         amount = round(random.uniform(10, 10000), 2)
 
         transaction = {
-            "id_registro" : id_registro,
+            "id" : id_registro,
             "date" : date.strftime("%Y-%m-%d %H:%M:%S"),
             "client" : client,
             "transaction_type" : transaction_type,
